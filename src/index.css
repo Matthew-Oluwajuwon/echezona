@@ -36,3 +36,36 @@
   border-radius: 50%;
   display: inline-block;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    border-radius: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #eef2f8;
+    display: none;
+    border-radius: 12px;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    display: block;
+    border-radius: 12px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    display: none;
+    border-radius: 12px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #566b30;
+    border-radius: 12px;
+    display: block;
+  }
