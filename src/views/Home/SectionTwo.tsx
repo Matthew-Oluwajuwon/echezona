@@ -4,7 +4,7 @@ const SectionTwo = () => {
   return (
     <div className="lg:grid lg:grid-cols-2 gap-10 flex flex-col-reverse mt-28">
       <section className="mx-auto">
-        <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem]">
+        <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem]">
           Feature-Rich Dashboard For All Your{" "}
           <span className="text-[#566b30] border-b-8 border-[#566b30]">Needs</span>{" "}
         </h1>

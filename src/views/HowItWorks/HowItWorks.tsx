@@ -84,7 +84,7 @@ const HowItWorks = () => {
 
   return (
     <div className="px-5 lg:px-20 py-20 lg:w-[75%] mx-auto">
-      <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center lg:text-[3rem] mb-5">
+      <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] text-center lg:text-[3rem] mb-5">
         How It Works
       </h1>
       <p className="font-thin leading-loose text-center">

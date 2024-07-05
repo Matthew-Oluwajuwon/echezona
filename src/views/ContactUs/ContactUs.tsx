@@ -4,7 +4,7 @@ import { MailOutlined, PhoneOutlined, SoundOutlined } from "@ant-design/icons";
 const ContactUs = () => {
   return (
     <div className="px-5 lg:px-20 py-20">
-      <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center lg:text-[3rem] mb-5">
+      <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] text-center lg:text-[3rem] mb-5">
         Contact Us
       </h1>
       <p className="font-thin leading-loose text-center">
@@ -12,7 +12,7 @@ const ContactUs = () => {
       </p>
 
       <div className="mt-20">
-        <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem] mb-5">
+        <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem] mb-5">
           Still need{" "}
           <span className="text-[#566b30] border-b-8 border-[#566b30]">
             answers?
@@ -59,7 +59,7 @@ const ContactUs = () => {
         </Card>
       </div>
       <div className="mt-20 flex items-center justify-between">
-        <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] w-[75%] text-left lg:text-left lg:text-[3rem] mb-5">
+        <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] w-[75%] text-left lg:text-left lg:text-[3rem] mb-5">
           Start accepting payments{" "}
           <span className="text-[#566b30] border-b-8 border-[#566b30]">
             in just 30 minutes

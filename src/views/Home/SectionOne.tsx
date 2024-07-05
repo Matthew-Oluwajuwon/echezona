@@ -7,7 +7,7 @@ const SectionOne = () => {
         <img src={PayWithEase} alt="" />
       </section>
       <section className="mx-auto lg:mx-0">
-        <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem] mb-5">
+        <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem] mb-5">
           Accelerate Business Growth Through Unique Ways of Accepting{" "}
           <span className="text-[#566b30] border-b-8 border-[#566b30]">Payment</span>{" "}
         </h1>
@@ -20,10 +20,10 @@ const SectionOne = () => {
           using card, account transfers (internet banking) or USSD.
         </p>
         <ul className="grid grid-cols-2 mt-3">
-            <li className="list mb-3 font-semibold">Bank Payment</li>
-            <li className="list font-semibold">Card Payment</li>
-            <li className="list mb-3 font-semibold">Mobile Payment</li>
-            <li className="list font-semibold">USSD Payment</li>
+            <li className="list mb-3 font-semibold font-[mulish-bold]">Bank Payment</li>
+            <li className="list font-semibold font-[mulish-bold]">Card Payment</li>
+            <li className="list mb-3 font-semibold font-[mulish-bold]">Mobile Payment</li>
+            <li className="list font-semibold font-[mulish-bold]">USSD Payment</li>
         </ul>
       </section>
     </div>

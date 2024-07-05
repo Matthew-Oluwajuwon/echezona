@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="lg:grid lg:grid-cols-2 gap-10 flex flex-col-reverse mt-20">
       <section className="mx-auto">
-        <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem]">
+        <h1 className="font-extrabold text-[1.5rem] font-[mulish-extrabold] sm:text-[2.5rem] text-center lg:text-left lg:text-[3rem]">
           The easiest way to make and accept payments from customers{" "}
           <span className="text-[#566b30]">Online</span>{" "}
         </h1>

@@ -4,7 +4,7 @@ import business from "../../assets/icons/business.svg";
 const SectionThree = () => {
   return (
     <div className="bg-[#F5F5F5] p-10 py-20 rounded-3xl mt-20">
-      <h1 className="font-bold text-[1.5rem] sm:text-[2.5rem] text-center">
+      <h1 className="font-bold font-[mulish-extrabold] text-[1.5rem] sm:text-[2.5rem] text-center">
         Flexible Payment Option For All{" "}
         <span className="text-[#566b30] border-b-8 border-[#566b30]">
           Businesses
