@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import { Button } from "antd";
 import { routeNames } from "../utils/router";
@@ -6,7 +6,9 @@ import { routeNames } from "../utils/router";
 const Header = () => {
   return (
     <header className="h-20 p-5 lg:px-20 flex items-center justify-between max-w-[100rem] mx-auto fixed w-full bg-white z-50">
-      <img src={logo} alt="" className="h-full" />
+      <Link to="/" className="h-full">
+        <img src={logo} alt="" className="h-full" />
+      </Link>
       <div className="hidden lg:flex gap-7 w-[30rem]">
         <NavLink
           to={routeNames.Home}
@@ -50,13 +52,13 @@ const Header = () => {
           Contact Us
         </NavLink>
       </div>
-        <Button
-          type="primary"
-          className="shadow-none p-6 hover:scale-95 transition-all flex items-center justify-center lg:text-lg"
-          onClick={() => window.location.href = "https://app.echezona.com"}
-        >
-          Sign In
-        </Button>
+      <Button
+        type="primary"
+        className="shadow-none p-6 hover:scale-95 transition-all flex items-center justify-center lg:text-lg"
+        onClick={() => (window.location.href = "https://app.echezona.com")}
+      >
+        Sign In
+      </Button>
     </header>
   );
 };

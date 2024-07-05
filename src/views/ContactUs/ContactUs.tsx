@@ -54,8 +54,7 @@ const ContactUs = () => {
             Report Fraud
           </h1>
           <p className="text-center font-thin w-[90%] mx-auto">
-            Contact our fraud hotline at reportfraud@echezona.ng or
-            +234-9162107000, +234-9162407000
+            Contact our fraud hotline at hello@echezona.com
           </p>
         </Card>
       </div>

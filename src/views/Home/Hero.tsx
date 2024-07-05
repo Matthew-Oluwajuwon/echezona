@@ -30,7 +30,7 @@ const Hero = () => {
       <section className="relative xl:w-[70%] mx-auto lg:mx-0 mb-20 lg:mb-0 lg:ml-auto">
         <div className="w-44 h-44 rounded-3xl bg-[#FF6D0080] absolute -top-5 -left-5 -z-10 spin" />
         <img src={heroImg} alt="" />
-        <div className="w-44 h-44 rounded-3xl bg-[#2B872B80] absolute -bottom-5 -right-5 -z-10 spin-reverse" />
+        <div className="w-44 h-44 rounded-3xl bg-[#2B872B80] absolute bottom-5 -right-5 -z-10 spin-reverse" />
       </section>
     </div>
   );
